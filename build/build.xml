@@ -1,0 +1,14 @@
+<project name="ravi" default="copy-file" basedir=".." >
+
+	<target name="copy-file">
+
+		<copy todir="${basedir}/dist" includeEmptyDirs="true">
+
+			<fileset dir="${basedir}" includes="cfg/**"/>
+			<fileset dir="${basedir}"  includes="scripts/**"/>
+
+		</copy>
+
+	</target>
+
+</project>
