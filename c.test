@@ -1,0 +1,4 @@
+<copy todir="src/destination"><fileset dir="src/*"/></copy>
+<copy todir="src/destination"><fileset dir="src/*"/></copy>
+<copy todir="src/destination"><fileset dir="src/*"/></copy>
+<copy todir="src/destination"><fileset dir="src/*"/></copy>
